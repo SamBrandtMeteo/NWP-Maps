@@ -13,3 +13,22 @@ conditions for dendrite growth exist. IDGZ is maximized where the depth of the D
 ascent within the DGZ, and/or relative humidity within the DGZ are largest.
 
 -------------------------------------------------------------------------------------
+
+BaroclinicWave.py
+
+Baroclinic instability allows synoptic waves to couple with low pressure systems and 
+amplify in the presence of a horizontal temperature gradient. The process involves a
+positive feedback loop between low-level pressure tendiencies from differential 
+cyclonic vortictiy advection (DCVA) and upper level height tendencies from low-level 
+temperature advection. BaroclinicWave.py plots the 500 mb heights and geostrophic 
+vorticity under the assumption that 500 mb is near the level of non-divergence (LND),
+and thus vertical motion from DCVA is approximately maximized. It would technically
+be more accurate to explicitly show the vertical gradient of vorticity advection, but
+the 500 mb CVA approximation tends to work quite well. The second part of these maps
+is 850 mb geostrophic temperature advection. Since temperature advection tends to be
+maximized near the surface, the quasi-geostrophic height tendency says that mid-level
+heights should fall above low-level cold advection and vice versa. To identify the
+release of baroclinic instability, look for couplets of warm and cold advection in
+the vicinity of CVA, which implies wave amplification.
+
+-------------------------------------------------------------------------------------
