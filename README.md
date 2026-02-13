@@ -32,3 +32,10 @@ release of baroclinic instability, look for couplets of warm and cold advection 
 the vicinity of CVA, which implies wave amplification.
 
 -------------------------------------------------------------------------------------
+
+CloudCeiling.py
+
+The cloud ceiling, or the lowest height above the ground where cloud cover first
+occurs, is a useful parameter for sunrise/sunset forecasting. Larger ceilings allow
+more sunlight to illuminate the cloud base from below, producing more vibrant
+displays.
